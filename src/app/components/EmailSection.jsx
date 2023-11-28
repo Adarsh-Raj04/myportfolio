@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useForm, ValidationError } from "@formspree/react";
 
 const EmailSection = () => {
-  const [state, handleSubmit] = useForm("mvojjryl");
+  const [state, handleSubmit] = useForm(process.env.key);
   var emailSubmitted;
   if (state.succeeded) {
     emailSubmitted = true;
