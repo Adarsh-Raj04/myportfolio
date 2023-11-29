@@ -38,7 +38,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-s mb-6 s:text-xs">
             Computer Science Student | GFG Rank 4 (Institute Level) | HackerRank
-            5⭐ | Web Development Enthusiast | Open to Exciting Opportunities
+            5⭐ | Web Development and Machine Learning Enthusiast | Open to Exciting Opportunities
           </p>
           <div>
             <Link
